@@ -1,10 +1,3 @@
-library(spData)
-library(dplyr)
-library(sf)
-
-world %>%
-  plot()
-
 # Zadania 1
 
 # 1. Zastanów się w czym R może tobie pomóc? 
