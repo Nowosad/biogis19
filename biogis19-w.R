@@ -145,7 +145,7 @@ tmap_save(mapa1, "moja_mapa1.png")
 
 library(dplyr)
 
-dane_meteo = read.csv("data/polska_meteo_2017.csv")
+dane_meteo = read.csv("data/polska_meteo_2017.csv", encoding = "UTF-8")
 head(dane_meteo)
 
 stacje_meteo = st_read("data/polska_stacje.gpkg")
