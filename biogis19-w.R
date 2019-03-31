@@ -3,7 +3,6 @@
 # 1. Zastanów się w czym R może tobie pomóc? 
 # Dlaczego chcesz się nauczyć go używać do analiz geoinformacyjnych?
 # 2. Przejrzyj [CRAN Task View: Analysis of Spatial Data](https://cran.r-project.org/web/views/Spatial.html) i sprawdź czy istnieją tam pakiety, które mogą się Tobie przydać w codziennej pracy?
-# 3. Wypełnij ankietę znajdującą się na stronie https://goo.gl/forms/HC0wOAKMMKrbsb1w2.
 
 library(sf)
 polska = st_read("data/polska.gpkg")
@@ -252,6 +251,3 @@ sample_lsm(wlkp_pn_lc, punkt, shape = "circle", size = 2000, what = "lsm_c_ed")
 #   4. Wylicz powierzchnię całego obszaru oraz powierchnie kolejnych klas (`TA` i `CA`).
 # Jakie są trzy kategorie o największej powierzchni?
 #   5. Sprawdź ile płatów znajduje się na tym obszarze (`NP`).
-
-## Ankieta: 
-# https://goo.gl/forms/rI5hkfzROqEQ59q12
